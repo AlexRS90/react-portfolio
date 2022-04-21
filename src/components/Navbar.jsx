@@ -27,7 +27,7 @@ const NavBar = () => {
             }`}
           />
         </button>
-        <ul className="justify-between bg-green-600 w-80 hidden lg:flex">
+        <ul className="justify-between w-80 hidden text-primary lg:flex">
           <li>Portfolio</li>
           <li>About</li>
           <li>Contact</li>
