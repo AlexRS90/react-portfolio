@@ -2,10 +2,10 @@ import React, { useState } from 'react';
 
 const NavBar = () => {
   const [isOpen, setIsOpen] = useState(false);
-  const genericHamburgerLine = 'h-1 w-6 my-1 rounded-full bg-black transition ease transform duration-300';
+  const genericHamburgerLine = 'h-1 w-6 my-1 rounded-full bg-primary transition ease transform duration-300';
   return (
-    <nav className="flex justify-between p-5">
-      <p>Alex Logo</p>
+    <nav className="flex justify-between p-5 bg-yellow-500 items-center">
+      <p className="text-primary">Alex Logo</p>
       <div>
         <button //eslint-disable-line
           className="flex flex-col h-12 w-12 border-2 border-black rounded justify-center items-center group lg:hidden"
