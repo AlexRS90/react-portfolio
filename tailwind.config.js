@@ -9,6 +9,9 @@ module.exports = {
       },
       backgroundImage: {
         'hero-pattern': "url('/src/assets/Header_bg.svg')",
+      },
+      borderRadius: {
+        extraLarge: '12rem',
       }
   },
   plugins: [],
