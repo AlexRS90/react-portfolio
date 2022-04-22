@@ -8,7 +8,7 @@ const NavBar = () => {
       <p className="text-primary">Alex Logo</p>
       <div>
         <button //eslint-disable-line
-          className="flex flex-col h-12 w-12 border-2 border-black rounded justify-center items-center group lg:hidden"
+          className="flex flex-col h-12 w-12 border-2 border-primary rounded justify-center items-center group lg:hidden"
           onClick={() => setIsOpen(!isOpen)}
         >
           <div
