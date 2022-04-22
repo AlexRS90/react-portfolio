@@ -1,7 +1,12 @@
 import './App.css';
+import NavBar from './components/Navbar';
+import MainView from './components/Main';
 
 const App = () => (
-  <h1 className="text-3xl font-bold underline">Pumas</h1>
+  <>
+    <NavBar />
+    <MainView />
+  </>
 );
 
 export default App;
