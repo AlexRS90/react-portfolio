@@ -4,7 +4,7 @@ const NavBar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const genericHamburgerLine = 'h-1 w-6 my-1 rounded-full bg-primary transition ease transform duration-300';
   return (
-    <nav className="flex justify-between p-5 bg-yellow-500 items-center">
+    <nav className="flex justify-between p-5 items-center">
       <p className="text-primary">Alex Logo</p>
       <div>
         <button //eslint-disable-line
