@@ -12,8 +12,8 @@ module.exports = {
       },
       borderRadius: {
         extraLarge: '12rem',
-      }
+      },
+    },
+    plugins: [],
   },
-  plugins: [],
-  }
 };
