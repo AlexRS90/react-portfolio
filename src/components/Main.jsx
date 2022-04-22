@@ -7,7 +7,7 @@ import angelist from '../assets/angelist.svg';
 
 const MainView = () => (
   <main
-    className="h-screen bg-stone-50 bg-hero-pattern bg-cover rounded-bl-extraLarge"
+    className="h-screen bg-stone-50 bg-hero-pattern bg-cover rounded-bl-extraLarge h-fit"
   >
     <section className="flex flex-col py-44 px-6 gap-5 lg:p-72">
       <h1 className="text-6xl">
