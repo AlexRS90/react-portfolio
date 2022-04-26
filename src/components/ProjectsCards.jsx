@@ -5,7 +5,7 @@ const Projects = () => {
   console.log(projects);
   return (
     <section>
-      <img src={require(`../assets/${projects[1].picture}`)} alt="twitter" />
+      <img src={projects[0].picture} alt="twitter" />
     </section>
   );
 };
