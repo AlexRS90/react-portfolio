@@ -22,7 +22,7 @@
     "picture": "https://lh4.googleusercontent.com/zE9-QBusS0Uo-dU4InQ-Awru3PAPzE2tt5MSJnBpYa4Wqx8dpzbgjERQPMjhL3AoSJRkvcrQwNknEIHi-GGQ=w1960-h3248-rw",
     "title": "Budget App",
     "description": "A cool app to keep track of all your purchases, you can see the total amount of all your expenses by category and of each of them inside the category.",
-    "tecnhologies": ["Ruby on Rails", "PostgreSQL", "CSS", "Capybara"],
+    "tecnhologies": ["Ruby on Rails", "PostgreSQL", "CSS", "RSpec", "Capybara"],
     "github": "https://github.com/AlexRS90/budget-app",
     "live": "https://money-budget-app.herokuapp.com/"
   },
@@ -31,7 +31,7 @@
     "picture": "https://lh5.googleusercontent.com/--L6qlopu5mHU2pbiYBUxXCpqPQtzJ5h9TerTyrU9jHNVxObTsO_FKYgF6agrqq8onluA-3kHBM2s_VJFIV4=w1440-h732-rw",
     "title": "Recipe App",
     "description": "An amazing app to track and share delicious recipes, you can also save your foods thanks to an inventory and generate a shopping list with all the ingredients that you'll need to cook a recipe.",
-    "tecnhologies": ["Ruby on Rails", "PostgreSQL", "Bootstrap", "Capybara"],
+    "tecnhologies": ["Ruby on Rails", "PostgreSQL", "Bootstrap", "RSpec", "Capybara"],
     "github": "https://github.com/AlexRS90/recipe-app",
     "live": "https://infinite-tor-22214.herokuapp.com/users/sign_in"
   }
