@@ -1,6 +1,6 @@
 [
   {
-    "picture": "https://lh4.googleusercontent.com/zutMrwgZBHJ2FCe5juPIeJFlogqyUAF_PYJctI45ni69PlmeeU-oZ3I7DzW9NlK0b2-vuC_JSmE9ROu6H5gS=w1440-h789",
+    "picture": "https://lh6.googleusercontent.com/Svtl-NlXUacHTLp_if1_BnpIySGtJzwL2zX8htu56gH2xehikxez91MOFFs-Q9CXdugFK_9Rwaxu_NXk7c4h=w1440-h732-rw",
     "title": "Book Store",
     "description": "A SPA where you can track your read books, you can add as many as you want and delete them. All data is stored in an API to always have your info up to date.",
     "tecnhologies": ["React", "Redux", "CSS", "Jest"],
@@ -8,7 +8,7 @@
     "live": ""
   },
   {
-    "picture": "https://lh6.googleusercontent.com/A64-swiAiES0Btlttr_WZX2LPlMOQRtt5vBSK7_xH_OByi_av9l5aZQ8keB5C7Hpmn70GozC89zXyfJOEglf=w1960-h3248-rw",
+    "picture": "https://lh5.googleusercontent.com/mmGu444aokqxPjw4MCApmGymsKCnMrloRrpXHJ7eODzsD_SSwr_1g6zXTkFuufOaryx47JN6VeKO_RZMgi6D=w1960-h3248-rw",
     "title": "MedBook",
     "description": "A single page application where you can add as many doctors as you need and once you have them, you're able to book appointments with them. All data is stored in our API, it let us add and delete info about doctors and the appointments.",
     "tecnhologies": ["React", "Redux", "Tailwind"],
@@ -16,7 +16,7 @@
     "live": "https://your-medbook.herokuapp.com/"
   },
   {
-    "picture": "https://lh5.googleusercontent.com/DSG_T-WI0r1eIXatdM_GXWImnRy2SrxU2AeWzHcntpHDr6z5h7PMMlpvhUpqYgxV4Uc5vvgiTHE2TxWFEHWO=w1960-h3248-rw",
+    "picture": "https://lh4.googleusercontent.com/zE9-QBusS0Uo-dU4InQ-Awru3PAPzE2tt5MSJnBpYa4Wqx8dpzbgjERQPMjhL3AoSJRkvcrQwNknEIHi-GGQ=w1960-h3248-rw",
     "title": "Budget App",
     "description": "A cool app to keep track of all your purchases, you can see the total amount of all your expenses by category and of each of them inside the category.",
     "tecnhologies": ["Ruby on Rails", "PostgreSQL", "CSS", "Capybara"],
@@ -24,7 +24,7 @@
     "live": "https://money-budget-app.herokuapp.com/"
   },
   {
-    "picture": "https://lh4.googleusercontent.com/NZLyuPhebKNauX7uWTM4fyi-EETqo3hBwNfgAuE7mIW32d9KvT8uUFyMBGE7zEtyAsyY6Kbdh9D3wH2c4T5V=w1440-h732-rw",
+    "picture": "https://lh5.googleusercontent.com/--L6qlopu5mHU2pbiYBUxXCpqPQtzJ5h9TerTyrU9jHNVxObTsO_FKYgF6agrqq8onluA-3kHBM2s_VJFIV4=w1440-h732-rw",
     "title": "Recipe App",
     "description": "An amazing app to track and share delicious recipes, you can also save your foods thanks to an inventory and generate a shopping list with all the ingredients that you'll need to cook a recipe.",
     "tecnhologies": ["Ruby on Rails", "PostgreSQL", "Bootstrap", "Capybara"],

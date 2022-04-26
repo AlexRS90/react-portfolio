@@ -5,7 +5,7 @@ const Projects = () => {
   console.log(projects);
   return (
     <section>
-      <img src={projects[0].picture} alt="twitter" />
+      <img src={projects[3].picture} alt="twitter" />
     </section>
   );
 };
