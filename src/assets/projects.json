@@ -21,7 +21,7 @@
     "id": 3,
     "picture": "https://lh4.googleusercontent.com/zE9-QBusS0Uo-dU4InQ-Awru3PAPzE2tt5MSJnBpYa4Wqx8dpzbgjERQPMjhL3AoSJRkvcrQwNknEIHi-GGQ=w1960-h3248-rw",
     "title": "Budget App",
-    "description": "A cool app to keep track of all your purchases, you can see the total amount of all your expenses by category and of each of them inside the category.",
+    "description": "A cool mobile app to keep track of all your purchases, you can see the total amount of all your expenses by category and of each of them inside the category.",
     "tecnhologies": ["Ruby on Rails", "PostgreSQL", "CSS", "RSpec", "Capybara"],
     "github": "https://github.com/AlexRS90/budget-app",
     "live": "https://money-budget-app.herokuapp.com/"

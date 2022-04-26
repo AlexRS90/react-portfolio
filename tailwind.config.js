@@ -7,6 +7,7 @@ module.exports = {
       colors: {
         primary: '#6070FF',
         second: '#EBEBFF',
+        focus: '#2230D2',
       },
       backgroundImage: {
         'hero-pattern': "url('/src/assets/Header_bg.svg')",
