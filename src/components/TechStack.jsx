@@ -1,10 +1,16 @@
 import React, { useState } from 'react';
 
 const TechStack = () => {
-  const [state, newState] = useState(false);
+  const [isOpen, setIsOpen] = useState(false);
   return (
     <div>
-      <button type="button">Languages</button>
+      <button
+        type="button"
+        onClick={() => setIsOpen(!isOpen)}
+        className={`${isOpen ? 'bg-primary' : 'bg-red-500'} `}
+      >
+        Languages
+      </button>
     </div>
   );
 };

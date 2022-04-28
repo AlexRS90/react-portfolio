@@ -1,5 +1,6 @@
 import React from 'react';
 import SocialMedia from './SocialMedia';
+import TechStack from './TechStack';
 
 const About = () => (
   <section className="bg-stone-50 rounded-tr-extraLarge py-20 px-6">
@@ -26,6 +27,9 @@ const About = () => (
       >
         Get my resume
       </button>
+    </div>
+    <div>
+      <TechStack />
     </div>
   </section>
 );
