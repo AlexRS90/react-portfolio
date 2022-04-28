@@ -3,8 +3,8 @@ import SocialMedia from './SocialMedia';
 import TechStack from './TechStack';
 
 const About = () => (
-  <section className="bg-stone-50 rounded-tr-extraLarge py-20 px-6">
-    <div className="flex flex-col border-2 border-primary gap-4">
+  <section className="bg-stone-50 rounded-tr-extraLarge py-20 px-6 flex flex-col md:flex-row md:gap-10">
+    <div className="flex flex-col gap-4 md:w-6/12">
       <p className="text-3xl">
         About
         <br />
@@ -28,7 +28,7 @@ const About = () => (
         Get my resume
       </button>
     </div>
-    <div>
+    <div className="md:w-6/12">
       <TechStack />
     </div>
   </section>
