@@ -4,8 +4,8 @@ import TechStack from './TechStack';
 import Footer from './Footer';
 
 const About = () => (
-  <section className="bg-stone-50">
-    <section className="bg-stone-50 rounded-tr-extraLarge border-2 border-red-500 py-20 px-6 flex flex-col md:flex-row md:gap-10">
+  <section className="bg-stone-50 rounded-tr-extraLarge">
+    <section className="bg-stone-50 rounded-tr-extraLarge py-20 px-6 flex flex-col md:flex-row md:gap-10">
       <div className="flex flex-col gap-4 md:w-6/12">
         <p className="text-3xl">
           About
