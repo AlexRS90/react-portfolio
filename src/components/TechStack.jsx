@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import Footer from './footer';
 
 const TechStack = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -75,6 +76,7 @@ const TechStack = () => {
           ))
         }
       </ul>
+      <Footer />
     </div>
   );
 };
