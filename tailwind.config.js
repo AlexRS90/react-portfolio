@@ -12,6 +12,7 @@ module.exports = {
       },
       backgroundImage: {
         'hero-pattern': "url('/src/assets/Header_bg.svg')",
+        'footer-pattern': "url('/src/assets/footer.svg')",
       },
       borderRadius: {
         extraLarge: '12rem',
