@@ -6,7 +6,7 @@ const TechStack = () => {
   const [isOpenSkills, setIsOpenSkills] = useState(false);
   const languages = ['JavaScript', 'Ruby', 'HTML/CSS', 'PostgreSQL'];
   const frameworks = ['React', 'Ruby on Rails', 'Tailwind', 'Bootstrap', 'RSpec', 'CapyBara'];
-  const skills = ['Git/GitHub', 'Terminal', 'Mobile First', 'OOP', 'TDD'];
+  const skills = ['Git/GitHub', 'Terminal', 'Mobile First', 'OOP', 'TDD', 'Scrum'];
   return (
     <div>
       <button

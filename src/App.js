@@ -3,6 +3,7 @@ import NavBar from './components/Navbar';
 import MainView from './components/Main';
 import Projects from './components/ProjectsCards';
 import About from './components/About';
+import Footer from './components/Footer';
 
 const App = () => (
   <>
@@ -10,6 +11,7 @@ const App = () => (
     <MainView />
     <Projects />
     <About />
+    <Footer />
   </>
 );
 

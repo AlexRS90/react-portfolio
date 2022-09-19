@@ -3,9 +3,12 @@ import React, { useState } from 'react';
 const NavBar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const genericHamburgerLine = 'h-1 w-6 my-1 rounded-full bg-primary transition ease transform duration-300';
+
   return (
-    <nav className="flex justify-between p-5 items-center bg-stone-50">
-      <p className="text-primary">Alex Logo</p>
+    <nav className="flex justify-between px-10 items-center bg-stone-50 sticky top-0 z-50 border-solid border-b border-primary">
+      <a href="#main">
+        <img src="/assets/alejandro_ramos.png" alt="Home" className="w-28" />
+      </a>
       <div>
         <button
           className="flex flex-col h-12 w-12 border-2 border-primary rounded justify-center items-center group lg:hidden"
@@ -28,10 +31,17 @@ const NavBar = () => {
             }`}
           />
         </button>
+        <div className={`${isOpen ? 'block' : 'hidden'}`}>
+          <ul className="text-primary">
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
         <ul className="justify-between w-80 hidden text-primary lg:flex">
-          <li>Portfolio</li>
-          <li>About</li>
-          <li>Contact</li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
       </div>
     </nav>
