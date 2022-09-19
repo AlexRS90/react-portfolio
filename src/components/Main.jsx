@@ -3,9 +3,10 @@ import SocialMedia from './SocialMedia';
 
 const MainView = () => (
   <main
-    className="h-screen bg-stone-50 bg-hero-pattern bg-cover rounded-bl-extraLarge h-fit"
+    className="bg-stone-50 rounded-bl-extraLarge h-fit"
+    id="main"
   >
-    <section className="flex flex-col py-44 px-6 gap-5 lg:p-72">
+    <section className="flex flex-col py-44 px-6 gap-5 bg-hero-pattern bg-no-repeat lg:p-72">
       <h1 className="text-6xl">
         I&apos;m Alejandro
         <br />

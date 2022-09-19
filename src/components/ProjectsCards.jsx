@@ -1,10 +1,9 @@
 import React from 'react';
 import projects from '../assets/projects.json';
 
-const Projects = () => {
-  console.table(projects);
-  return (
-    <section className="m-5 lg:m-36">
+const Projects = () => (
+  <>
+    <section className="m-5 lg:m-36" id="portfolio">
       <ul className="flex flex-col gap-10">
         {
           projects.map((project) => (
@@ -28,19 +27,31 @@ const Projects = () => {
                     ))
                   }
                 </ul>
-                <button
-                  type="button"
-                  className="border border-primary w-32 rounded-md p-2 text-center text-primary hover:bg-primary hover:text-stone-50 active:bg-focus active:border-focus"
-                >
-                  See Project
-                </button>
+                <div className="flex gap-2 md:gap-4 lg:gap-10">
+                  <a
+                    href={project.live}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="border border-primary w-32 rounded-md p-2 text-center text-primary hover:bg-primary hover:text-stone-50 active:bg-focus active:border-focus"
+                  >
+                    Live Demo
+                  </a>
+                  <a
+                    href={project.github}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="border border-primary w-32 rounded-md p-2 text-center text-primary hover:bg-primary hover:text-stone-50 active:bg-focus active:border-focus"
+                  >
+                    Github Repo
+                  </a>
+                </div>
               </div>
             </li>
           ))
         }
       </ul>
     </section>
-  );
-};
+  </>
+);
 
 export default Projects;

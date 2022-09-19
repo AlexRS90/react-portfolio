@@ -13,7 +13,7 @@
     "picture": "/assets/MedBook.png",
     "title": "MedBook",
     "description": "A single page application where you can add as many doctors as you need and once you have them, you're able to book appointments with them. All data is stored in our API, it let us add and delete info about doctors and the appointments.",
-    "tecnhologies": ["React", "Redux", "Tailwind"],
+    "tecnhologies": ["React", "Redux", "Tailwind", "API built with Rails"],
     "github": "https://github.com/codepantha/medbook",
     "live": "https://your-medbook.herokuapp.com/"
   },
